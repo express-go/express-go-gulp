@@ -1,12 +1,13 @@
-var runSequence = require('run-sequence');
-
-var gulp        = require('gulp');
-var concat      = require('gulp-concat');
-
+/**
+ * Gulp for express-go
+ *
+ * @param gulpObject
+ * @returns {*}
+ */
 
 module.exports = function( gulpObject )
 {
-    var gulp = typeof gulpObject === "object" ? gulpObject : gulp;
+    var gulp = typeof gulpObject === "object" ? gulpObject : require('gulp');
 
     require('./lib/cleans')( gulp );
     require('./lib/socket')( gulp );
