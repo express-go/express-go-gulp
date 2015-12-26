@@ -1,6 +1,6 @@
 {
   "name": "express-go-gulp",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": " Gulp package for Express-Go framework project.",
   "main": "index.js",
   "scripts": {
